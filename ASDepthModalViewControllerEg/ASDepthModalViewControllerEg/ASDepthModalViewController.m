@@ -52,7 +52,7 @@ static NSInteger const kDepthModalOptionTapMask = 1 << 9;
 
 - (id)init
 {
-  kShowProcedure;
+  kShowProcedureStart;
     self = [super init];
     if (self)
     {
@@ -60,15 +60,20 @@ static NSInteger const kDepthModalOptionTapMask = 1 << 9;
         self.view.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;                
         self.view.backgroundColor = [UIColor blackColor];
     }
+   kShowProcedureEnd;
     return self;
+ 
 }
 
 - (void)loadView {
-  kShowProcedure;
+  kShowProcedureStart;
+  [super loadView];
+  kShowProcedureEnd;
 }
 
-- (void)viewdidload {
-  kShowProcedure;
+- (void)viewDidLoad {
+  kShowProcedureStart;
+  kShowProcedureEnd;
 }
 
 - (void)restoreRootViewController

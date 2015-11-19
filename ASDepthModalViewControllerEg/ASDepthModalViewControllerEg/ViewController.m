@@ -26,6 +26,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+  kShowProcedureStart;
+  self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+  kShowProcedureEnd;
+  return self;
+  
+  
+}
+
 - (IBAction)clickPop:(id)sender {
   PopView *view = [[[NSBundle mainBundle]loadNibNamed:@"PopView" owner:nil options:nil]lastObject];
   [ASDepthModalViewController presentView:view backgroundColor:nil options:ASDepthModalOptionAnimationGrow completionHandler:nil];
