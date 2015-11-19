@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC91F90A1BFCE3D50080F4EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC91F9091BFCE3D50080F4EF /* main.m */; };
+		DC91F90D1BFCE3D50080F4EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC91F90C1BFCE3D50080F4EF /* AppDelegate.m */; };
+		DC91F9151BFCE3D50080F4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC91F9141BFCE3D50080F4EF /* Assets.xcassets */; };
+		DC91F9181BFCE3D50080F4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC91F9161BFCE3D50080F4EF /* LaunchScreen.storyboard */; };
+		DC91F9211BFCE3E30080F4EF /* ASDepthModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC91F9201BFCE3E30080F4EF /* ASDepthModalViewController.m */; };
+		DC91F9251BFCE5000080F4EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC91F9231BFCE5000080F4EF /* ViewController.m */; };
+		DC91F9261BFCE5000080F4EF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC91F9241BFCE5000080F4EF /* ViewController.xib */; };
+		DC91F9291BFCE5560080F4EF /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = DC91F9281BFCE5560080F4EF /* UIImage+Blur.m */; };
+		DC91F92C1BFCE6620080F4EF /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC91F92B1BFCE6620080F4EF /* PopView.m */; };
+		DC91F92E1BFCE6740080F4EF /* PopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC91F92D1BFCE6740080F4EF /* PopView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC91F9051BFCE3D50080F4EF /* ASDepthModalViewControllerEg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASDepthModalViewControllerEg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC91F9091BFCE3D50080F4EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC91F90B1BFCE3D50080F4EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC91F90C1BFCE3D50080F4EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC91F9141BFCE3D50080F4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC91F9171BFCE3D50080F4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC91F9191BFCE3D50080F4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC91F91F1BFCE3E30080F4EF /* ASDepthModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDepthModalViewController.h; sourceTree = "<group>"; };
+		DC91F9201BFCE3E30080F4EF /* ASDepthModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDepthModalViewController.m; sourceTree = "<group>"; };
+		DC91F9221BFCE5000080F4EF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC91F9231BFCE5000080F4EF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC91F9241BFCE5000080F4EF /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		DC91F9271BFCE5560080F4EF /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		DC91F9281BFCE5560080F4EF /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		DC91F92A1BFCE6620080F4EF /* PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopView.h; sourceTree = "<group>"; };
+		DC91F92B1BFCE6620080F4EF /* PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopView.m; sourceTree = "<group>"; };
+		DC91F92D1BFCE6740080F4EF /* PopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopView.xib; sourceTree = "<group>"; };
+		DC91F92F1BFCEBB10080F4EF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC91F9021BFCE3D50080F4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC91F8FC1BFCE3D50080F4EF = {
+			isa = PBXGroup;
+			children = (
+				DC91F9071BFCE3D50080F4EF /* ASDepthModalViewControllerEg */,
+				DC91F9061BFCE3D50080F4EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC91F9061BFCE3D50080F4EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC91F9051BFCE3D50080F4EF /* ASDepthModalViewControllerEg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC91F9071BFCE3D50080F4EF /* ASDepthModalViewControllerEg */ = {
+			isa = PBXGroup;
+			children = (
+				DC91F91F1BFCE3E30080F4EF /* ASDepthModalViewController.h */,
+				DC91F9201BFCE3E30080F4EF /* ASDepthModalViewController.m */,
+				DC91F9271BFCE5560080F4EF /* UIImage+Blur.h */,
+				DC91F9281BFCE5560080F4EF /* UIImage+Blur.m */,
+				DC91F90B1BFCE3D50080F4EF /* AppDelegate.h */,
+				DC91F90C1BFCE3D50080F4EF /* AppDelegate.m */,
+				DC91F9141BFCE3D50080F4EF /* Assets.xcassets */,
+				DC91F9161BFCE3D50080F4EF /* LaunchScreen.storyboard */,
+				DC91F9191BFCE3D50080F4EF /* Info.plist */,
+				DC91F9081BFCE3D50080F4EF /* Supporting Files */,
+				DC91F9221BFCE5000080F4EF /* ViewController.h */,
+				DC91F9231BFCE5000080F4EF /* ViewController.m */,
+				DC91F9241BFCE5000080F4EF /* ViewController.xib */,
+				DC91F92A1BFCE6620080F4EF /* PopView.h */,
+				DC91F92B1BFCE6620080F4EF /* PopView.m */,
+				DC91F92D1BFCE6740080F4EF /* PopView.xib */,
+			);
+			path = ASDepthModalViewControllerEg;
+			sourceTree = "<group>";
+		};
+		DC91F9081BFCE3D50080F4EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC91F9091BFCE3D50080F4EF /* main.m */,
+				DC91F92F1BFCEBB10080F4EF /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC91F9041BFCE3D50080F4EF /* ASDepthModalViewControllerEg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC91F91C1BFCE3D50080F4EF /* Build configuration list for PBXNativeTarget "ASDepthModalViewControllerEg" */;
+			buildPhases = (
+				DC91F9011BFCE3D50080F4EF /* Sources */,
+				DC91F9021BFCE3D50080F4EF /* Frameworks */,
+				DC91F9031BFCE3D50080F4EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASDepthModalViewControllerEg;
+			productName = ASDepthModalViewControllerEg;
+			productReference = DC91F9051BFCE3D50080F4EF /* ASDepthModalViewControllerEg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC91F8FD1BFCE3D50080F4EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = GikkiAres;
+				TargetAttributes = {
+					DC91F9041BFCE3D50080F4EF = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = DC91F9001BFCE3D50080F4EF /* Build configuration list for PBXProject "ASDepthModalViewControllerEg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC91F8FC1BFCE3D50080F4EF;
+			productRefGroup = DC91F9061BFCE3D50080F4EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC91F9041BFCE3D50080F4EF /* ASDepthModalViewControllerEg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC91F9031BFCE3D50080F4EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC91F9181BFCE3D50080F4EF /* LaunchScreen.storyboard in Resources */,
+				DC91F9261BFCE5000080F4EF /* ViewController.xib in Resources */,
+				DC91F92E1BFCE6740080F4EF /* PopView.xib in Resources */,
+				DC91F9151BFCE3D50080F4EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC91F9011BFCE3D50080F4EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC91F92C1BFCE6620080F4EF /* PopView.m in Sources */,
+				DC91F9211BFCE3E30080F4EF /* ASDepthModalViewController.m in Sources */,
+				DC91F90D1BFCE3D50080F4EF /* AppDelegate.m in Sources */,
+				DC91F9291BFCE5560080F4EF /* UIImage+Blur.m in Sources */,
+				DC91F9251BFCE5000080F4EF /* ViewController.m in Sources */,
+				DC91F90A1BFCE3D50080F4EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC91F9161BFCE3D50080F4EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC91F9171BFCE3D50080F4EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC91F91A1BFCE3D50080F4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC91F91B1BFCE3D50080F4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC91F91D1BFCE3D50080F4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ASDepthModalViewControllerEg/PrefixHeader.pch;
+				INFOPLIST_FILE = ASDepthModalViewControllerEg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Explorer.ASDepthModalViewControllerEg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC91F91E1BFCE3D50080F4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ASDepthModalViewControllerEg/PrefixHeader.pch;
+				INFOPLIST_FILE = ASDepthModalViewControllerEg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Explorer.ASDepthModalViewControllerEg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC91F9001BFCE3D50080F4EF /* Build configuration list for PBXProject "ASDepthModalViewControllerEg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC91F91A1BFCE3D50080F4EF /* Debug */,
+				DC91F91B1BFCE3D50080F4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC91F91C1BFCE3D50080F4EF /* Build configuration list for PBXNativeTarget "ASDepthModalViewControllerEg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC91F91D1BFCE3D50080F4EF /* Debug */,
+				DC91F91E1BFCE3D50080F4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC91F8FD1BFCE3D50080F4EF /* Project object */;
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PopView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BfD-1w-f13">
+                    <rect key="frame" x="40" y="50" width="240" height="128"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQS-lO-QV2">
+                            <rect key="frame" x="97" y="49" width="46" height="30"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="clickBack:" destination="iN0-l3-epB" eventType="touchUpInside" id="L8d-FF-LI4"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="pQS-lO-QV2" firstAttribute="centerX" secondItem="BfD-1w-f13" secondAttribute="centerX" id="5lt-My-6hl"/>
+                        <constraint firstItem="pQS-lO-QV2" firstAttribute="centerY" secondItem="BfD-1w-f13" secondAttribute="centerY" id="ooX-4F-YfQ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bS2-If-VpV">
+                    <rect key="frame" x="40" y="263" width="240" height="128"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bS2-If-VpV" secondAttribute="bottom" constant="89" id="BgM-qr-XNk"/>
+                <constraint firstItem="BfD-1w-f13" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="JjZ-yA-MGw"/>
+                <constraint firstItem="bS2-If-VpV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="MdL-a8-XJQ"/>
+                <constraint firstAttribute="trailing" secondItem="bS2-If-VpV" secondAttribute="trailing" constant="40" id="Nnp-G5-h2z"/>
+                <constraint firstItem="BfD-1w-f13" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="WaE-hy-kY9"/>
+                <constraint firstItem="bS2-If-VpV" firstAttribute="top" secondItem="BfD-1w-f13" secondAttribute="bottom" constant="85" id="eao-as-ifR"/>
+                <constraint firstAttribute="trailing" secondItem="BfD-1w-f13" secondAttribute="trailing" constant="40" id="jPd-01-ce3"/>
+                <constraint firstItem="bS2-If-VpV" firstAttribute="height" secondItem="BfD-1w-f13" secondAttribute="height" id="zrO-0m-dlx"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="89" y="288"/>
+        </view>
+    </objects>
+</document>
