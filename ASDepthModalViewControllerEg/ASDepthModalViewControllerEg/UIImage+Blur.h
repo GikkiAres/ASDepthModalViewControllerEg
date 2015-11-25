@@ -11,4 +11,5 @@
 
 @interface UIImage (Blur)
 -(UIImage *)boxblurImageWithBlur:(CGFloat)blur;
++(UIImage *)imageFromScreenshotOfView:(UIView *)view;
 @end

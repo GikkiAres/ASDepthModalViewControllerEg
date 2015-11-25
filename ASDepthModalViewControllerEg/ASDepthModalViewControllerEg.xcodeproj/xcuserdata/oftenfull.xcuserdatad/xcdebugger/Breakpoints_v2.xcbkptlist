@@ -6,15 +6,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ASDepthModalViewControllerEg/ASDepthModalViewController.m"
-            timestampString = "469628805.857648"
+            timestampString = "470152523.579605"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
             landmarkName = "-presentView:withBackgroundColor:options:completionHandler:"
             landmarkType = "5">
          </BreakpointContent>
@@ -22,15 +22,31 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ASDepthModalViewControllerEg/GAModalViewController.m"
+            timestampString = "470152464.617272"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "+presentView:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ASDepthModalViewControllerEg/ViewController.m"
-            timestampString = "469628664.101089"
+            timestampString = "470158848.135588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "-clickPop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -38,16 +54,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ASDepthModalViewControllerEg/ASDepthModalViewController.m"
-            timestampString = "469628811.74376"
+            filePath = "ASDepthModalViewControllerEg/ViewController.m"
+            timestampString = "470158848.135588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "-init"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "-GAPop:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

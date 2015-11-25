@@ -98,4 +98,18 @@
     return returnImage;
 }
 
++(UIImage *)imageFromScreenshotOfView:(UIView *)view
+{
+  UIGraphicsBeginImageContext(view.bounds.size);
+  [view.layer renderInContext:UIGraphicsGetCurrentContext()];
+  UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+  UIGraphicsEndImageContext();
+  
+  // hack, helps w/ our colors when blurring
+  NSData *imageData = UIImageJPEGRepresentation(image, 0); // convert to jpeg
+  image = [UIImage imageWithData:imageData];
+  
+  return image;
+}
+
 @end

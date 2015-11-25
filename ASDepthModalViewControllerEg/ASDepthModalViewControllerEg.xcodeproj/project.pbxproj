@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CA8F8341C029F800044D276 /* saber2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA8F8331C029F800044D276 /* saber2.jpg */; };
+		6CF624E51C03E82D00E6B0B7 /* GAModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF624E41C03E82D00E6B0B7 /* GAModalViewController.m */; };
 		DC91F90A1BFCE3D50080F4EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC91F9091BFCE3D50080F4EF /* main.m */; };
 		DC91F90D1BFCE3D50080F4EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC91F90C1BFCE3D50080F4EF /* AppDelegate.m */; };
 		DC91F9151BFCE3D50080F4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC91F9141BFCE3D50080F4EF /* Assets.xcassets */; };
@@ -20,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6CA8F8331C029F800044D276 /* saber2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saber2.jpg; sourceTree = "<group>"; };
+		6CF624E31C03E82D00E6B0B7 /* GAModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAModalViewController.h; sourceTree = "<group>"; };
+		6CF624E41C03E82D00E6B0B7 /* GAModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAModalViewController.m; sourceTree = "<group>"; };
 		DC91F9051BFCE3D50080F4EF /* ASDepthModalViewControllerEg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASDepthModalViewControllerEg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC91F9091BFCE3D50080F4EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC91F90B1BFCE3D50080F4EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +75,7 @@
 		DC91F9071BFCE3D50080F4EF /* ASDepthModalViewControllerEg */ = {
 			isa = PBXGroup;
 			children = (
+				6CA8F8331C029F800044D276 /* saber2.jpg */,
 				DC91F91F1BFCE3E30080F4EF /* ASDepthModalViewController.h */,
 				DC91F9201BFCE3E30080F4EF /* ASDepthModalViewController.m */,
 				DC91F9271BFCE5560080F4EF /* UIImage+Blur.h */,
@@ -86,6 +92,8 @@
 				DC91F92A1BFCE6620080F4EF /* PopView.h */,
 				DC91F92B1BFCE6620080F4EF /* PopView.m */,
 				DC91F92D1BFCE6740080F4EF /* PopView.xib */,
+				6CF624E31C03E82D00E6B0B7 /* GAModalViewController.h */,
+				6CF624E41C03E82D00E6B0B7 /* GAModalViewController.m */,
 			);
 			path = ASDepthModalViewControllerEg;
 			sourceTree = "<group>";
@@ -156,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA8F8341C029F800044D276 /* saber2.jpg in Resources */,
 				DC91F9181BFCE3D50080F4EF /* LaunchScreen.storyboard in Resources */,
 				DC91F9261BFCE5000080F4EF /* ViewController.xib in Resources */,
 				DC91F92E1BFCE6740080F4EF /* PopView.xib in Resources */,
@@ -176,6 +185,7 @@
 				DC91F9291BFCE5560080F4EF /* UIImage+Blur.m in Sources */,
 				DC91F9251BFCE5000080F4EF /* ViewController.m in Sources */,
 				DC91F90A1BFCE3D50080F4EF /* main.m in Sources */,
+				6CF624E51C03E82D00E6B0B7 /* GAModalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +328,7 @@
 				DC91F91E1BFCE3D50080F4EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

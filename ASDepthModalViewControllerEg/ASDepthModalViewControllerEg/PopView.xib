@@ -11,11 +11,11 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BfD-1w-f13">
-                    <rect key="frame" x="40" y="50" width="240" height="128"/>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BfD-1w-f13">
+                    <rect key="frame" x="40" y="20" width="240" height="210"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQS-lO-QV2">
-                            <rect key="frame" x="97" y="49" width="46" height="30"/>
+                            <rect key="frame" x="97" y="90" width="46" height="30"/>
                             <state key="normal" title="Button"/>
                             <connections>
                                 <action selector="clickBack:" destination="iN0-l3-epB" eventType="touchUpInside" id="L8d-FF-LI4"/>
@@ -28,19 +28,19 @@
                         <constraint firstItem="pQS-lO-QV2" firstAttribute="centerY" secondItem="BfD-1w-f13" secondAttribute="centerY" id="ooX-4F-YfQ"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bS2-If-VpV">
-                    <rect key="frame" x="40" y="263" width="240" height="128"/>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bS2-If-VpV">
+                    <rect key="frame" x="40" y="250" width="240" height="210"/>
                     <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
             </subviews>
             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="bS2-If-VpV" secondAttribute="bottom" constant="89" id="BgM-qr-XNk"/>
+                <constraint firstAttribute="bottom" secondItem="bS2-If-VpV" secondAttribute="bottom" constant="20" id="BgM-qr-XNk"/>
                 <constraint firstItem="BfD-1w-f13" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="JjZ-yA-MGw"/>
                 <constraint firstItem="bS2-If-VpV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="MdL-a8-XJQ"/>
                 <constraint firstAttribute="trailing" secondItem="bS2-If-VpV" secondAttribute="trailing" constant="40" id="Nnp-G5-h2z"/>
-                <constraint firstItem="BfD-1w-f13" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="WaE-hy-kY9"/>
-                <constraint firstItem="bS2-If-VpV" firstAttribute="top" secondItem="BfD-1w-f13" secondAttribute="bottom" constant="85" id="eao-as-ifR"/>
+                <constraint firstItem="BfD-1w-f13" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="WaE-hy-kY9"/>
+                <constraint firstItem="bS2-If-VpV" firstAttribute="top" secondItem="BfD-1w-f13" secondAttribute="bottom" constant="20" id="eao-as-ifR"/>
                 <constraint firstAttribute="trailing" secondItem="BfD-1w-f13" secondAttribute="trailing" constant="40" id="jPd-01-ce3"/>
                 <constraint firstItem="bS2-If-VpV" firstAttribute="height" secondItem="BfD-1w-f13" secondAttribute="height" id="zrO-0m-dlx"/>
             </constraints>

@@ -8,6 +8,7 @@
 
 #import "PopView.h"
 #import "ASDepthModalViewController.h"
+#import "GAModalViewController.h"
 
 @implementation PopView
 
@@ -19,7 +20,12 @@
 }
 */
 - (IBAction)clickBack:(id)sender {
-  [ASDepthModalViewController dismiss];
+  UIWindow *keyWindow = [UIApplication sharedApplication].keyWindow;
+  UIViewController * vc = keyWindow.rootViewController;
+  if ([vc isMemberOfClass:[GAModalViewController class]]) {
+    [GAModalViewController dismiss];
+  }
+  else [ASDepthModalViewController dismiss];
 }
 
 @end
